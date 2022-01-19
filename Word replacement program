@@ -1,0 +1,5 @@
+sentence = input('Enter your first name: ')
+print('you said your first name is ' +sentence)
+word1 = input('word you want to replace: ')
+word2 = input('word you want to replace it with: ')
+print (sentence.replace(word1, word2))
