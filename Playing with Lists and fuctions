@@ -1,0 +1,28 @@
+print('howdy')
+countries = ['ghana', 'Nigeria', 'Togo']
+print(countries[1:2])
+collection = ['goal', 'set', True, 'kitten']
+print(collection)
+print(len(collection))
+print(type(collection))
+print(collection[1])
+gold = (2, 1, 5)
+print(min(gold))
+collection[1] = 62
+print(collection)
+collection.insert(2, 'gok')
+print(collection)
+collection.append('goater')
+print(collection)
+collection.insert(1, False)
+print(collection)
+collection.append('holyboy')
+print(collection)
+collection.remove('gok')
+print(collection)
+def my_function(fname):
+  print(fname + " Refsnes")
+
+my_function("Emil")
+my_function("Tobias")
+my_function("Linus")
